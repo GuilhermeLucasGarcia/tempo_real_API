@@ -1,0 +1,17 @@
+.app{
+    justify-content: center;
+    align-items: center;
+}
+
+.time{
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+    margin-left: 20%;
+    
+}
+.time-content{
+    justify-content: center;
+    align-items: center;
+    
+}
