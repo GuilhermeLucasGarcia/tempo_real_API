@@ -1,20 +1,22 @@
 import React from 'react';
-import tempo from './../../services/api';
+import  { tempo, geolocation } from './../../services/api';
 import './styles.css';
 
+geolocation()
+
 function home() {
-
-    
-
   return ( 
-    <div>
-  <div className="row app align-items-center">
-    <div className='row time'>
-        <div id='time-content'></div>
-        <div>dsfd</div>
-    </div>
-    </div>
-    </div>
+
+    <div className="row app align-items-center">
+        <div className='time'>
+            <div id='time-content'>
+
+            </div >
+           <div id='maps'>
+             
+           </div>
+        </div>
+        </div>
   )
   
 }
