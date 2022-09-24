@@ -1,22 +1,16 @@
 import React from 'react';
-import  { tempo, geolocation } from './../../services/api';
-import './styles.css';
+import  { tempo } from './../../services/api';
+import { Container, BoxTime } from './styles';
 
-geolocation()
 
 function home() {
   return ( 
-
-    <div className="row app align-items-center">
-        <div className='time'>
-            <div id='time-content'>
-
-            </div >
-           <div id='maps'>
-             
-           </div>
-        </div>
-        </div>
+    <Container className='row'>
+      <BoxTime id='time-content' className='text-center'>
+        
+      </BoxTime>
+    </Container>
+    
   )
   
 }
